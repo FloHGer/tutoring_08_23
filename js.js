@@ -30,5 +30,5 @@ function switchCategory(value){
 }
 
 function compute(){
-
+    
 }
