@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Florian Hoehle, mail@FlorianHoehle.de">
+    <link rel="stylesheet" href="main.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    
+        
+    
+<header>
+    <h1>Unit Converter</h1>
+</header>
+<main>
+    <div id="categories">
+        <select onchange="switchCategory(document.querySelector('#categorySelect').value)"
+            name="categorySelect"
+            id="categorySelect"
+        >
+            <option value="default">Select:</option>
+            <option value="area">Area</option>
+            <option value="length">Length</option>
+        </select>
+    </div>
+    <div id="selectors">
+        <select id="selection1">
+        </select>
+        =
+        <select id="selection2">
+        </select>
+    </div>
+    <div id="inputs">
+        <input type="text" id="input1">
+        =
+        <input type="text" id="input2">
+    </div>
+</main>
+<footer>
+    
+</footer>
+<script src="js.js"></script>
+</body>
+</html>
